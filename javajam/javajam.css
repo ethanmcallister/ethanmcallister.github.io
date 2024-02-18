@@ -16,8 +16,9 @@ header {
     padding-bottom: 5px;
 }
 img {
-    padding-left: 10px;
-    padding-right: 10px;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
 }
 h1 {
     font-size: 3em;
@@ -87,4 +88,7 @@ footer {
     background-image: url("images/hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+#coffee-mugs {
+    float: right;
 }
