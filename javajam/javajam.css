@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-image: url("images/fadedroad50.jpg");
     background-repeat: no-repeat;
@@ -10,10 +13,20 @@ body {
 }
 header {
     background-color: #D2B48C;
-    color: #8C3826;
-    text-align: center;
+    color: #231814;
     padding-top: 5px;
     padding-bottom: 5px;
+    padding-left: 240px;
+    background-image: url("images/coffeelogo.jpg");
+    background-repeat: no-repeat;
+}
+header a:link,
+header a:visited {
+    text-decoration: none;
+    color: #231814;
+}
+header a:hover {
+    color: #FEF6C2;
 }
 img {
     border-style: none;
@@ -33,7 +46,10 @@ h4 {
     background-color: #D2B48C;
     font-size: 1.2em;
     padding-left: .5em;
-    padding-bottom: .25em;
+    padding-bottom: .0;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+    clear: left;
 }
 dt {
     color: #8C3826;
@@ -45,15 +61,43 @@ nav {
     text-decoration: none;
     text-align: center;
     font-weight: bold;
+    float: left;
+    width: 200px;
 }
 nav a {
     text-decoration: none;
 }
+nav a:link {
+    color: #FEF6C2;
+}
+nav a:visited {
+    color: #D2B48C;
+}
+nav a:hover {
+    color: #CC9933;
+}
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
 main {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
     padding-bottom: 2em;
-
+    background-color: #FEF6C2;
+    margin-left: 200px;
+    overflow: auto;
+}
+main h2,
+main h3, 
+main h4,
+main p,
+main div,
+main ul,
+main dl {
+    padding-left: 3em;
+    padding-right: 2em;
 }
 footer {
     border-top: solid 2px;
@@ -72,6 +116,16 @@ footer {
 .details {
     padding-right: 20%;
     padding-left: 20%;
+    overflow: auto;
+}
+.floatleft {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+.onethird {
+    float: left;
+    width: 33%;
 }
 #wrapper {
     min-width: 900px;
@@ -79,16 +133,28 @@ footer {
     box-shadow: 2px 2px 4px 0 black;
 
     width: 80%;
-    background-color: #FEFAEB;
+    background-color: #231814;
     margin-right: auto;
     margin-left: auto;
 }
 #homehero {
     height: 300px;
     background-image: url("images/hero.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 #coffee-mugs {
     float: right;
+}
+#heromugs {
+    height: 300px;
+    background-image: url("images/heromugs.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#heroguitar {
+    height: 300px;
+    background-image: url("images/heroguitar.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
