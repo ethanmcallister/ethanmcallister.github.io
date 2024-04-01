@@ -53,8 +53,7 @@ h2 {
 	color: #8C3826;
 }
 
-h3,
-dt {
+h3, dt {
 	color: #8C3826;
 }
 
@@ -110,13 +109,7 @@ main {
 	padding: 0 0 2em 0;
 }
 
-h2,
-h3,
-h4,
-p,
-div,
-ul,
-dl {
+h2,h3,h4,p,div,ul,dl {
 	padding-left: 1em;
 	padding-right: 1em;
 }
@@ -139,28 +132,28 @@ img {
 
 #homehero {
 	height: 300px;
-	background-image: url(images/hero.jpg);
+	background-image: url(images/road.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
 
 #heromugs {
 	height: 300px;
-	background-image: url(images/heromugs.jpg);
+	background-image: url(images/threemugs.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
 
 #heroguitar {
 	height: 300px;
-	background-image: url(images/heroguitar.jpg);
+	background-image: url(images/guitar.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
 
 #herojobs {
 	height: 300px;
-	background-image: url(images/herojobs.jpg);
+	background-image: url(images/coffeecup.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -183,34 +176,30 @@ footer {
 }
 
 table {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+	margin: auto;
 	width: 90%;
 	border-spacing: 0;
 }
 
-th {
-	padding: 10px;
-}
-
+th,
 td {
 	padding: 10px;
-	text-align: left;
-} 
-
-tr:nth-of-type(odd) {
-	background-color: #d2b48e;	
 }
 
-form { display: flex;
+tr:nth-of-type(odd) {
+	background-color: #D2B48E;
+}
+
+form {
+	display: flex;
 	flex-direction: column;
-	padding-left: 1em; width: 80%; }
-input, textarea { margin-bottom: .5em; }
+	padding-left: 1em;
+	width: 80%;
+}
 
-
-fieldset {
-	border: none;
+input,
+textarea {
+	margin-bottom: .5em;
 }
 
 /* Configure Medium Layout */
@@ -246,10 +235,6 @@ fieldset {
 		background-image: url(images/heroguitar.jpg);
 	}
 
-	#herojobs {
-		background-image: url(images/herojobs.jpg);
-	}
-
 	#flow {
 		display: flex;
 		flex-direction: row;
@@ -275,18 +260,21 @@ fieldset {
 
 	form {
 		width: 40%;
-		display: grid; 
+		display: grid;
 		grid-gap: 1em;
+		gap: 1em;
 		grid-template-columns: 6em 1fr;
 	}
 
-	button {
-		grid-column: 2;
+	input[type="submit"] {
+		grid-column: 2 / 3;
 		width: 9em;
 	}
 
+	#herojobs {
+		background-image: url(images/herojobs.jpg)
+	}
 }
-
 
 /* Configure Large Layout */
 @media (min-width: 1024px) {
