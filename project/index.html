@@ -38,9 +38,39 @@
     <section id="profile">
       <div class="section__pic-container">
         <img
-          src="./assets/profile-pic.png"
+          src="./assets/ethan-pic-circle.png"
           alt="Ethan McAllister Profile Picture"
         />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ethan McAllister</h1>
+        <p class="section__text__p2">Computer Science Major</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/ethan_mcallister.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn Profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/ethan-mcallister-11014328b/', '_blank')"
+          />
+          <img
+            src="./assets/github.png"
+            alt="Github Profile"
+            class="icon"
+            onclick="window.open('https://github.com/ethanmcallister', '_blank')"
+          />
+        </div>
       </div>
     </section>
     <script src="script.js"></script>
