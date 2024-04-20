@@ -20,7 +20,7 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo"><a href="index.html">Ethan McAllister</a></div>
+      <!-- <div class="logo"><a href="index.html">Ethan McAllister</a></div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -28,12 +28,28 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="index.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="./index.html" onclick="toggleMenu()">About</a></li>
           <li>
-            <a href="experience.html" onclick="toggleMenu()">Experience</a>
+            <a href="./experience.html" onclick="toggleMenu()">Experience</a>
           </li>
-          <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="./projects.html" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="./contact.html" onclick="toggleMenu()">Contact</a></li>
+        </div> -->
+        <div class="logo"><a href="index.html">Ethan McAllister</a></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <ul>
+                    <li><a href="index.html" onclick="toggleMenu()">About</a></li>
+                    <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+                </ul>
+            </div>
         </div>
       </div>
     </nav>
@@ -45,7 +61,7 @@
           <img
             src="./assets/email.png"
             alt="Email icon"
-            class="icon contact-icon"
+            class="icon contact-icon email-icon"
           />
           <p>
             <a href="mailto:ethanamcallister@gmail.com"
@@ -69,6 +85,19 @@
         </div>
       </div>
     </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Ethan McAllister. All Rights Reserved.</p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
