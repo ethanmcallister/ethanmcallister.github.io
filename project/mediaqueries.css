@@ -1,3 +1,4 @@
+/* Smaller Laptop Devices */
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -8,6 +9,7 @@
   }
 }
 
+/* Medium Sized Tablet Devices */
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
@@ -39,6 +41,7 @@
   }
 }
 
+/* Mobile Devices (iOS/Android) */
 @media screen and (max-width: 600px) {
   #contact footer {
     height: 40;
