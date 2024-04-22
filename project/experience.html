@@ -6,9 +6,15 @@
     <title>Experience - Ethan McAllister</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
-    <link rel="icon" href="https://www.usu.edu/favicon.ico" type="image/x-icon">
+    <link
+      rel="icon"
+      href="https://www.usu.edu/favicon.ico"
+      type="image/x-icon"
+    />
   </head>
   <body>
+    
+    <!-- Desktop nav -->
     <nav id="desktop-nav">
       <div class="logo"><a href="index.html">Ethan McAllister</a></div>
       <div>
@@ -20,6 +26,8 @@
         </ul>
       </div>
     </nav>
+
+    <!-- Hamburger nav -->
     <nav id="hamburger-nav">
       <div class="logo"><a href="index.html">Ethan McAllister</a></div>
       <div class="hamburger-menu">
@@ -29,15 +37,19 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="./index.html" onclick="toggleMenu()">Home</a></li>
-          <li>
-            <a href="./experience.html" onclick="toggleMenu()">Experience</a>
-          </li>
-          <li><a href="./projects.html" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="./contact.html" onclick="toggleMenu()">Contact</a></li>
+          <ul>
+            <li><a href="./index.html" onclick="toggleMenu()">Home</a></li>
+            <li>
+              <a href="./experience.html" onclick="toggleMenu()">Experience</a>
+            </li>
+            <li><a href="./projects.html" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="./contact.html" onclick="toggleMenu()">Contact</a></li>
+          </ul>
         </div>
       </div>
     </nav>
+
+    <!-- Experience Section -->
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
@@ -166,6 +178,8 @@
         </div>
       </div>
     </section>
+
+    <!-- Footer Section -->
     <footer>
       <nav>
         <div class="nav-links-container">
