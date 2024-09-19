@@ -57,6 +57,9 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
+  .section-text-p1 {
+    margin: 2rem;
+  }
   .about-containers, .contact-info-upper-container, .btn-container {
     flex-wrap: wrap;
   }
@@ -91,4 +94,7 @@
   .text-container {
     text-align: justify;
   }
+  /* .details-container {
+    margin-top: 5vh;
+  } */
 }
